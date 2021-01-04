@@ -16,3 +16,21 @@ length = len(student_grades)
 
 mean = mysum / length
 print(mean)
+
+student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
+print(student_grades.count(10.0))
+
+username = "Python3"
+print(username.lower())
+
+student_grades = {"Marry": 9.1, "John":8.8}
+print()
+#list you can mutable (add stuff)
+#tuple you cannot append( immutable)
+monday_temp = (20.0,90.0,89.7) #tuple
+
+monday_temp = [9.1,9.9]
+monday_temp.append(8.10)
+monday_temp.clear()
+monday_temp.append(2.1)
+monday_temp.index(2.1)
