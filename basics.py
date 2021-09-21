@@ -34,3 +34,5 @@ monday_temp.append(8.10)
 monday_temp.clear()
 monday_temp.append(2.1)
 monday_temp.index(2.1)
+
+print(mysum)
