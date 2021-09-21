@@ -35,4 +35,4 @@ monday_temp.clear()
 monday_temp.append(2.1)
 monday_temp.index(2.1)
 
-print(mean)
+print(student_grades)
