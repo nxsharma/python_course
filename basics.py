@@ -36,3 +36,17 @@ monday_temp.append(2.1)
 monday_temp.index(2.1)
 
 print(username)
+
+#function
+def mean(value):
+    if type(value) == dict:
+        the_mean = sum(value.values()) /len(value)
+    else:
+        the_mean = sum(value) / len(value)
+    return the_mean
+
+
+student_grades = {"Marry": 9.1, "John":8.8}
+
+
+print(mean(student_grades))
