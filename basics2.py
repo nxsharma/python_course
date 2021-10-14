@@ -58,5 +58,7 @@ print(mean)
 
 print(mean)
 
+print ("nothing")
+
 
 
