@@ -1,4 +1,6 @@
 import datetime
+from typing import Generator
+from unicodedata import name
 mynow = datetime.datetime.now()
 print(mynow)
 
@@ -48,6 +50,9 @@ def mean(value):
 student_grades = {"Marry": 9.1, "John":8.8}
 
 
+
+
+
 print(mean(student_grades))
 
 print(mean)
@@ -59,6 +64,8 @@ print(mean)
 print(mean)
 
 print ("nothing")
+
+# finding the smallest five elements in an array
 
 
 
